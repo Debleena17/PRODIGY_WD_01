@@ -20,7 +20,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 1000; /* Ensure header is above other content */
+    z-index: 1000; /* To ensure header is above other content */
 }
 
 nav {
@@ -65,8 +65,8 @@ nav a:hover, nav a.active {
 }
 
 section {
-    padding: 100px 20px; /* Adjust padding to ensure section content is not hidden under the fixed header */
-    min-height: 100vh; /* Ensure each section takes at least the full viewport height */
+    padding: 100px 20px; /* This is needed to ensure section content is not hidden under the fixed header */
+    min-height: 100vh; /* This is done so each section takes at least the full viewport height */
     display: flex;
     justify-content: center;
     align-items: center;
