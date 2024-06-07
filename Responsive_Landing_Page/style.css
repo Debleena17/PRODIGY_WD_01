@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: rgb(35, 67, 49);
+    color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000; /* Ensure header is above other content */
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    font-size: 20px;
+    margin: 0 10px;
+    color: bisque;
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative; /* Needed for pseudo-element positioning */
+}
+
+nav a::before {
+    content: "";
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    top: -5px;
+    bottom: -5px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    z-index: -1;
+}
+
+nav a:hover::before, nav a.active::before {
+    border-color: rgb(165, 132, 47);
+}
+
+nav a:hover, nav a.active {
+    font-weight: bold;
+    color: rgb(165, 132, 47);
+}
+
+.title {
+    font-size: 60px;
+    color: bisque;
+    text-decoration: none;
+    font-family: 'Abril Fatface', serif;
+}
+
+section {
+    padding: 100px 20px; /* Adjust padding to ensure section content is not hidden under the fixed header */
+    min-height: 100vh; /* Ensure each section takes at least the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(21, 46, 32);
+    font-size: 100px;
+    color: #fff;
+    font-weight: 700;
+}
+
+section:nth-child(odd) {
+    background: rgb(165, 132, 47);
+}
+
+footer {
+    background: rgb(35, 67, 49);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+    margin: 0;
+}
