@@ -4,7 +4,7 @@ Welcome to the **Responsive Landing Webpage** project. This project demonstrates
 
 ## Project Structure
 
-- **index.html**: The main HTML file containing the structure of the webpage.
+- **task_1.html**: The main HTML file containing the structure of the webpage.
 - **style.css**: The CSS file containing the styles for the webpage.
 - **script.js**: The JavaScript file containing the functionality for smooth scrolling and active link highlighting.
 
