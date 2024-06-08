@@ -1,5 +1,7 @@
 # PRODIGY_WD_01
 
+# Responsive Landing Page Project
+
 Welcome to the **Responsive Landing Webpage** project. This project demonstrates a modern and sleek landing page design, featuring smooth scrolling navigation, a fixed header, and distinct sections for Home, About, Courses, Contact, and Services. The webpage is fully responsive and designed to provide a seamless user experience across various devices.
 
 ## Project Structure
@@ -22,4 +24,4 @@ Welcome to the **Responsive Landing Webpage** project. This project demonstrates
 
 ## Author
 
-Developed by Debleena Shree. For any questions or feedback, feel free to reach out at shreedebleena@gmail.com.
+Developed by *Debleena Shree*. For any questions or feedback, feel free to reach out at shreedebleena@gmail.com.
